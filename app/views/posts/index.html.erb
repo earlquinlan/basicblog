@@ -1,0 +1,7 @@
+<h1>View all Posts</h1>
+
+<!-- Only use = when there is an output -->
+<% @posts.each do |post| %>
+  <h3><%= post.title %></h3>
+  <p><%= post.body %></p>
+<% end %>
